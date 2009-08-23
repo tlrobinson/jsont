@@ -1,0 +1,7 @@
+{
+    "name": "jsont",
+    "author": "Stefan Gössner (http://goessner.net/)",
+    "contributors" : ["Tom Robinson (http://tlrobinson.net/)"],
+    "description": "JSON transforms, akin to XSLT but for JSON: http://goessner.net/articles/jsont/",
+    "keywords": ["json", "transform", "template", "xslt"]
+}

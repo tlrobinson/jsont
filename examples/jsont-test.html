@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> JSONT - Tests </title>
+<script type="text/javascript">exports = {};</script>
+<script type="text/javascript" src="../lib/jsont.js"></script>
+<script type="text/javascript" src="tests.js"></script>
+<script type="text/javascript">
+
+function test() {
+   show(jsonT(o[1], t[1]));
+   show(jsonT(o[2], t[2]));
+   show(jsonT(o[3], t[3]));
+   show(jsonT(o[4], t[4]));
+   show(jsonT(o[5], t[5]));
+   show(jsonT(o[6], t[6]));
+   show(jsonT(o[7], t[7]));
+   show(jsonT(o[8], t[8]));
+   show(jsonT(o[9], t[9]));
+   show(jsonT(o[10], t[10]));
+   show(jsonT(o[11], t[11]));
+   show(jsonT(o[12], t[12]));
+   show(jsonT(o[13], t[13]));
+   show(jsonT(o[14], t[14]));
+   show(jsonT(o[15], t[15]));
+   show(jsonT(o[16], t[16]));
+   show(jsonT(o[17], t[17]));
+}
+
+function show(s) { document.getElementById("out").innerHTML += (s+"\n").replace(/&/g, "&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\n/g, "<br/>") + "<hr/>"; }
+window.onload = test;
+</script>
+</head>
+
+<body>
+<pre id="out"></pre>
+</body>
+</html>
